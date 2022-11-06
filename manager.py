@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-#Use the below multiline comment to create the cryptography key by running the function once and hashing it out again
+#Use the below multiline comment to create the cryptography key by running the function the first time the program is run and hashing it out again
 '''def write_key():
     key = base64.urlsafe_b64encode(kdf.derive(password))    
     with open("key.key", "wb") as key_file:
