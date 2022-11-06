@@ -2,7 +2,7 @@
 *This is a basic password manager using fernet cryptography*
 ##### **NOTE: THIS IS NOT RECOMMENDED FOR STORING SENSITIVE DATA**
 # 
-## Extremely Simple Setup Instructions:
+## Setup Instructions:
 1. First things first, let's make sure the code is set up. Read through it and make changes if you want, but there are a few things you definitely should change in manager.py:
 
 **As the comment says, uncomment the multiline function and run the code while calling the function. This creates the fernet key used to shuffle your passwords and can be commented out once again after one use.**
